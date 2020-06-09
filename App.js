@@ -61,6 +61,7 @@ const TabNavigator = createBottomTabNavigator(
 
   {
     defaultNavigationOptions: ({ navigation }) => ({
+      // This is where the screens are set up
       tabBarIcon: ({ focused, horizontal, tintColor }) => {
         const { routeName } = navigation.state;
         let iconName;
